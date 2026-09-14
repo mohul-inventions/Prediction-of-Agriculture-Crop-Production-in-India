@@ -1,0 +1,30 @@
+
+Agriculture Crop Production Prediction
+--------------------------------------
+
+Dataset Records       : 5
+Features Used         : 7
+Training Records      : 3
+Testing Records       : 2
+Target Column         : production
+
+Models Tested:
+1. Linear Regression
+2. Random Forest
+
+Best Model:
+Random Forest
+
+Model Performance:
+
+            Model       MAE        RMSE   R2 Score
+Linear Regression 922.62119 1103.893560 -18.497296
+    Random Forest 943.75000  944.371286 -13.269394
+
+Generated Outputs:
+1. production_distribution.png
+2. feature_correlation.png
+3. actual_vs_predicted.png
+4. model_comparison.csv
+5. prediction_results.csv
+6. project_results.txt
